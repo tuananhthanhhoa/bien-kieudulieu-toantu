@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let inputInterest; 
+        let inputYear; 
+        let inputMoney;
+            inputInterest = prompt('Nhập lãi suất của năm');
+            inputYear = prompt('Nhập số năm cần gửi');
+            inputMoney = prompt('Nhập số tiền gửi');
+        let interest = parseInt(inputInterest);
+        let year = parseInt(inputYear);
+        let money = parseInt(inputMoney);
+        let N = money+interest*year;
+        document.write('sum N:'+N);
+    </script>
+
+</body>
+
+</html>
